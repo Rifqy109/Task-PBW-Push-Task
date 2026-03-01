@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f4f7f6; 
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, #ff416c 0%, #ff4b2b 100%);
+    color: white;
+    text-align: center;
+    padding: 50px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    letter-spacing: 1px;
+}
+
+nav {
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    max-width: 800px;
+    margin: -40px auto 30px auto; 
+    border-radius: 50px; 
+    position: relative;
+    z-index: 10;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0;
+}
+
+nav ul li a {
+    color: #ff4b2b;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+    gap: 30px;
+}
+
+.content {
+    flex: 2;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05); 
+    transition: transform 0.3s ease;
+    cursor: default;
+}
+
+.content h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    background: linear-gradient(135deg, #8E2DE2, #4A00E0);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.content p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background: linear-gradient(135deg, #00c6ff 0%, #0072ff 100%);
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 114, 255, 0.4);
+    transition: all 0.3s ease-in-out;
+}
+
+.sidebar {
+    flex: 1;
+    padding: 40px;
+    background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%);
+    color: #333;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    margin-left: 0;
+}
+
+.profile-pic {
+    width:100%;
+    border-radius: 50%;
+    padding-right: auto;
+    margin-bottom: 20px auto;
+    border: 4px solid #ff911c;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.sidebar h2 {
+    margin-bottom: 15px;
+    color: #2c3e50;
+    font-size: 1.5rem;
+}
+
+.social-media p {
+    margin: 10px auto;
+    font-size: 1rem;
+    color: #555;
+    text-align: center;
+}
+
+.social-media {
+    justify-content: center;
+    text-align: center;
+}
+
+.social-media a {
+    color: #ff4b2b;
+    margin: 0 15px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+    align-items: center;
+}
+
+footer {
+    text-align: center;
+    padding: 25px 10px;
+    background-color: #2b1055; 
+    color: #d1d8e0;
+    margin-top: 50px;
+    font-size: 0.9rem;
+    border-top: 4px solid #ff4b2b; 
+}
