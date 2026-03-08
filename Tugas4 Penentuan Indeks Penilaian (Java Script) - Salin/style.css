@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Styling Container Form */
+.container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+h2 {
+            text-align: center;
+            color: #1f2937;
+            margin-top: 0;
+            margin-bottom: 1.5rem;
+        }
+
+        /* Styling Input Group */
+        .form-group {
+            margin-bottom: 1.25rem;
+        }
+
+        .form-group label {
+            display: block;
+            font-size: 0.875rem;
+            font-weight: bold;
+            color: #374151;
+            margin-bottom: 0.5rem;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 0.6rem 0.75rem;
+            border: 1px solid #d1d5db;
+            border-radius: 6px;
+            font-size: 1rem;
+            color: #374151;
+            box-sizing: border-box;
+            transition: border-color 0.2s, box-shadow 0.2s;
+        }
+
+        .form-group input:focus {
+            outline: none;
+            border-color: #3b82f6;
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+        }
+
+        /* Styling Tombol */
+        .btn {
+            width: 100%;
+            background-color: #2563eb;
+            color: #ffffff;
+            font-weight: bold;
+            padding: 0.6rem 1rem;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background-color 0.2s;
+        }
+
+        .btn:hover {
+            background-color: #1d4ed8;
+        }
+
+        /* Styling Area Hasil */
+        .result-box {
+            margin-top: 1.5rem;
+            text-align: center;
+            padding: 1rem;
+            border-radius: 6px;
+            display: none; /* Disembunyikan secara default */
+        }
+
+        .result-box.show {
+            display: block;
+        }
+
+        /* Pesan Error */
+        .result-box.error {
+            background-color: #fef2f2;
+            border: 1px solid #fecaca;
+            color: #dc2626;
+        }
+        
+        .result-box.error p {
+            margin: 0;
+            font-weight: bold;
+        }
+
+        /* Pesan Sukses */
+        .result-box.success {
+            background-color: #f0fdf4;
+            border: 1px solid #bbf7d0;
+            color: #374151;
+        }
+
+        .result-box.success p {
+            margin: 0;
+            margin-bottom: 0.25rem;
+        }
+
+        .result-box.success .grade {
+            font-size: 2.5rem;
+            font-weight: 900;
+            color: #16a34a;
+            margin-top: 0.5rem;
+            margin-bottom: 0;
+        }
