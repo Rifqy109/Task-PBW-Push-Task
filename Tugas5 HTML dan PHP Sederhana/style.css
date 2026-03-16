@@ -1,0 +1,25 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+.kotak-hasil {
+    border: 2px solid black;
+    width: 550px;
+    padding: 20px 30px;
+}
+h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+hr {
+    border: none;
+    border-top: 1px solid black;
+    margin-bottom: 15px;
+}
+.isi-teks {
+    font-size: 16px;
+    line-height: 1.5;
+}
